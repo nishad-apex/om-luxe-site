@@ -6,10 +6,10 @@
     <meta name="description" content="Perch in the Clouds - A luxury mountain retreat in Ellijay, GA with stunning 360° mountain views, hot tub, and mesmerizing sunrises and sunsets.">
     <meta name="keywords" content="Ellijay vacation rental, luxury cabin, mountain views, hot tub, Georgia mountains">
     <title>Om Luxe Properties | Perch in the Clouds - Ellijay, GA</title>
-    
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/logo.png">
-    
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -25,7 +25,7 @@
                     <span>Luxury Vacation Rentals</span>
                 </div>
             </a>
-            
+
             <!-- Navigation -->
             <nav class="main-nav">
                 <ul class="nav-menu">
@@ -37,7 +37,7 @@
                     <li><a href="rules.html">House Rules</a></li>
                     <li><a href="howto.html">How-To Videos</a></li>
                 </ul>
-                
+
                 <!-- Call Button -->
                 <button class="btn-call" id="callBtn">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -46,7 +46,7 @@
                     Call Us
                 </button>
             </nav>
-            
+
             <!-- Mobile Menu Toggle -->
             <button class="mobile-menu-toggle" aria-label="Toggle menu">
                 <span></span>
@@ -56,80 +56,18 @@
         </div>
     </header>
 
-    <!-- ==================== Hero Section with Carousel ==================== -->
+    <!-- ==================== Hero Section with Video Background ==================== -->
     <section class="hero">
-        <div class="hero-carousel">
-            <div class="carousel-container">
-                <div class="carousel-track">
-                    <!-- Slides will be populated with property images -->
-                    <!-- Add your images to assets/images/property/ folder -->
-                    <!-- Example slides - replace src with your actual images -->
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-1.jpg" alt="Perch in the Clouds - Mountain View">
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-2.jpg" alt="Perch in the Clouds - Interior">
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-3.jpg" alt="Perch in the Clouds - Hot Tub">
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-4.jpg" alt="Perch in the Clouds - Living Area">
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-5.jpg" alt="Perch in the Clouds - Bedroom">
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-6.jpg" alt="Perch in the Clouds - Kitchen">
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-7.jpg" alt="Perch in the Clouds - Deck">
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-8.jpg" alt="Perch in the Clouds - Sunset View">
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-9.jpg" alt="Perch in the Clouds - Sunrise View">
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-10.jpg" alt="Perch in the Clouds - River View">
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-11.jpg" alt="Perch in the Clouds - Exterior">
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-12.jpg" alt="Perch in the Clouds - Additional View">
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-13.jpg" alt="Perch in the Clouds - Additional View">
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-14.jpg" alt="Perch in the Clouds - Additional View">
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="assets/images/property/hero-15.jpg" alt="Perch in the Clouds - Additional View">
-                    </div>
-                </div>
-                
-                <!-- Navigation Arrows -->
-                <button class="carousel-nav carousel-prev" aria-label="Previous image">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="15 18 9 12 15 6"></polyline>
-                    </svg>
-                </button>
-                <button class="carousel-nav carousel-next" aria-label="Next image">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="9 18 15 12 9 6"></polyline>
-                    </svg>
-                </button>
-                
-                <!-- Indicators -->
-                <div class="carousel-indicators">
-                    <!-- Indicators are generated by JavaScript -->
-                </div>
-            </div>
+        <div class="hero-video-container">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="assets/images/videos/aerial-drone-tour.mov" type="video/quicktime">
+                <source src="assets/images/videos/aerial-drone-tour.mov" type="video/mp4">
+                <!-- Fallback image for browsers that don't support video -->
+                <img src="assets/images/photos/exterior/aerial-river-bend-overview.jpg" alt="Perch in the Clouds - Aerial View">
+            </video>
+            <div class="hero-video-overlay"></div>
         </div>
-        
+
         <!-- Hero Content Overlay -->
         <div class="hero-content">
             <p class="hero-tagline">Ellijay, Georgia</p>
@@ -162,6 +100,12 @@
                     Sleeps 6
                 </span>
             </div>
+            <a href="#gallery" class="btn-explore">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+                Explore Property
+            </a>
         </div>
     </section>
 
@@ -227,6 +171,423 @@
         </div>
     </section>
 
+    <!-- ==================== Photo Gallery ==================== -->
+    <section id="gallery" class="photo-gallery">
+        <div class="container">
+            <h2>Explore the Property</h2>
+            <p class="gallery-intro">84 photos showcasing every corner of your mountain retreat</p>
+
+            <!-- Gallery Filter Tabs -->
+            <div class="gallery-tabs">
+                <button class="gallery-tab active" data-filter="all">All Photos</button>
+                <button class="gallery-tab" data-filter="exterior">Exterior</button>
+                <button class="gallery-tab" data-filter="living-kitchen">Living & Kitchen</button>
+                <button class="gallery-tab" data-filter="deck-outdoor">Deck & Outdoor</button>
+                <button class="gallery-tab" data-filter="bedrooms">Bedrooms</button>
+                <button class="gallery-tab" data-filter="amenities">Amenities</button>
+                <button class="gallery-tab" data-filter="entertainment">Entertainment</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- EXTERIOR - Arrival (5 images) -->
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/exterior-front-daytime.jpg" alt="Front entrance with covered porch and mountain views" loading="lazy">
+                    <div class="gallery-caption">Front Entrance</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/exterior-front-straight.jpg" alt="Front facade straight-on view" loading="lazy">
+                    <div class="gallery-caption">Front Facade</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/entrance-welcome-sign.jpg" alt="Front porch with Perch in the Clouds welcome sign" loading="lazy">
+                    <div class="gallery-caption">Welcome Sign</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/exterior-front-evening-glow.jpg" alt="Cabin front at evening with warm interior lighting" loading="lazy">
+                    <div class="gallery-caption">Evening Glow</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/exterior-twilight-dramatic.jpg" alt="Dramatic twilight shot with purple sky and glowing windows" loading="lazy">
+                    <div class="gallery-caption">Twilight View</div>
+                </div>
+
+                <!-- LIVING & KITCHEN (14 images) -->
+                <div class="gallery-item" data-category="living-kitchen">
+                    <img src="assets/images/photos/living-kitchen/kitchen-living-open-concept.jpg" alt="Open concept kitchen and living with floor-to-ceiling windows" loading="lazy">
+                    <div class="gallery-caption">Open Concept Living</div>
+                </div>
+                <div class="gallery-item" data-category="living-kitchen">
+                    <img src="assets/images/photos/living-kitchen/kitchen-island-vaulted-ceiling.jpg" alt="Gourmet kitchen with waterfall granite island and vaulted ceilings" loading="lazy">
+                    <div class="gallery-caption">Gourmet Kitchen</div>
+                </div>
+                <div class="gallery-item" data-category="living-kitchen">
+                    <img src="assets/images/photos/living-kitchen/kitchen-island-detail.jpg" alt="Kitchen island detail showing granite waterfall edge" loading="lazy">
+                    <div class="gallery-caption">Waterfall Island</div>
+                </div>
+                <div class="gallery-item" data-category="living-kitchen">
+                    <img src="assets/images/photos/living-kitchen/kitchen-island-seating.jpg" alt="Kitchen island with leather bar seating and mountain views" loading="lazy">
+                    <div class="gallery-caption">Island Seating</div>
+                </div>
+                <div class="gallery-item" data-category="living-kitchen">
+                    <img src="assets/images/photos/living-kitchen/kitchen-entry-hooks.jpg" alt="Kitchen and entry area with coat hooks" loading="lazy">
+                    <div class="gallery-caption">Entry Area</div>
+                </div>
+                <div class="gallery-item" data-category="living-kitchen">
+                    <img src="assets/images/photos/living-kitchen/living-room-open-windows.jpg" alt="Living area with floor-to-ceiling windows and deck views" loading="lazy">
+                    <div class="gallery-caption">Living Room Windows</div>
+                </div>
+                <div class="gallery-item" data-category="living-kitchen">
+                    <img src="assets/images/photos/living-kitchen/living-room-tv-fireplace.jpg" alt="Living room with TV, slat accent wall, and electric fireplace" loading="lazy">
+                    <div class="gallery-caption">TV & Fireplace</div>
+                </div>
+                <div class="gallery-item" data-category="living-kitchen">
+                    <img src="assets/images/photos/living-kitchen/living-room-fireplace-games.jpg" alt="Living room showing fireplace, swivel chairs, and board games" loading="lazy">
+                    <div class="gallery-caption">Fireplace & Games</div>
+                </div>
+                <div class="gallery-item" data-category="living-kitchen">
+                    <img src="assets/images/photos/living-kitchen/living-room-sectional-art.jpg" alt="Living room with cream sectional and contemporary art" loading="lazy">
+                    <div class="gallery-caption">Modern Sectional</div>
+                </div>
+                <div class="gallery-item" data-category="living-kitchen">
+                    <img src="assets/images/photos/living-kitchen/living-room-deck-view.jpg" alt="Living room sofa area with deck and mountain views" loading="lazy">
+                    <div class="gallery-caption">Deck Views</div>
+                </div>
+                <div class="gallery-item" data-category="living-kitchen">
+                    <img src="assets/images/photos/living-kitchen/living-room-sofa-art.jpg" alt="Living room seating with modern abstract art" loading="lazy">
+                    <div class="gallery-caption">Modern Art</div>
+                </div>
+                <div class="gallery-item" data-category="living-kitchen">
+                    <img src="assets/images/photos/living-kitchen/living-room-tv-wall.jpg" alt="TV wall with wood slat accent and swivel chairs" loading="lazy">
+                    <div class="gallery-caption">Slat Accent Wall</div>
+                </div>
+                <div class="gallery-item" data-category="living-kitchen">
+                    <img src="assets/images/photos/living-kitchen/living-room-wide-evening.jpg" alt="Wide living room view showing deck with hot tub at evening" loading="lazy">
+                    <div class="gallery-caption">Evening Ambiance</div>
+                </div>
+                <div class="gallery-item" data-category="living-kitchen">
+                    <img src="assets/images/photos/living-kitchen/living-room-evening-sunset.jpg" alt="Living room at evening with sunset through windows" loading="lazy">
+                    <div class="gallery-caption">Sunset Views</div>
+                </div>
+
+                <!-- DECK & OUTDOOR (21 images) -->
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/hot-tub-sunset-hero.jpg" alt="Hot tub with LED lights and purple sunset sky" loading="lazy">
+                    <div class="gallery-caption">Hot Tub at Sunset</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/hot-tub-evening-lights.jpg" alt="Hot tub with LED lights at evening" loading="lazy">
+                    <div class="gallery-caption">Hot Tub Evening</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/hot-tub-daytime-mountain.jpg" alt="Hot tub with mountain backdrop during day" loading="lazy">
+                    <div class="gallery-caption">Hot Tub Daytime</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/hot-tub-valley-mist.jpg" alt="Hot tub angle showing river valley and mist" loading="lazy">
+                    <div class="gallery-caption">Valley Mist View</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/deck-lounge-firepit.jpg" alt="Covered deck with outdoor lounge and fire pit" loading="lazy">
+                    <div class="gallery-caption">Deck Lounge</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/deck-firepit-evening.jpg" alt="Deck at evening with fire pit glow" loading="lazy">
+                    <div class="gallery-caption">Fire Pit Evening</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/firepit-adirondack-daytime.jpg" alt="Fire pit with Adirondack chairs and mountain view" loading="lazy">
+                    <div class="gallery-caption">Fire Pit Area</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/deck-patio-heater-sunset.jpg" alt="Deck with patio heater, hot tub, and sunset mist" loading="lazy">
+                    <div class="gallery-caption">Patio Heater</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/deck-evening-wide.jpg" alt="Wide deck view at evening with patio heater and fire" loading="lazy">
+                    <div class="gallery-caption">Deck Evening Wide</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/deck-dining-lounge.jpg" alt="Deck dining area with outdoor table and lounge" loading="lazy">
+                    <div class="gallery-caption">Outdoor Dining</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/deck-dining-evening.jpg" alt="Deck dining area at evening" loading="lazy">
+                    <div class="gallery-caption">Evening Dining</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/deck-grill-mountain.jpg" alt="Deck with BBQ grill overlooking mountains" loading="lazy">
+                    <div class="gallery-caption">BBQ Grill</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/deck-lounge-wide.jpg" alt="Wide view of deck lounge area" loading="lazy">
+                    <div class="gallery-caption">Lounge Wide View</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/deck-corner-seating.jpg" alt="Deck corner seating area" loading="lazy">
+                    <div class="gallery-caption">Corner Seating</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/deck-railing-view.jpg" alt="Deck railing with mountain valley view" loading="lazy">
+                    <div class="gallery-caption">Railing View</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/deck-seating-mountain.jpg" alt="Deck seating with mountain panorama" loading="lazy">
+                    <div class="gallery-caption">Mountain Panorama</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/deck-porch-swing.jpg" alt="Covered porch swing on deck" loading="lazy">
+                    <div class="gallery-caption">Porch Swing</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/porch-swing-mountain-view.jpg" alt="Porch swing with mountain and valley view" loading="lazy">
+                    <div class="gallery-caption">Swing View</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/lower-deck-double-swing.jpg" alt="Lower deck double swing with mountain view" loading="lazy">
+                    <div class="gallery-caption">Double Swing</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/lower-deck-hammock.jpg" alt="Lower deck with hammock" loading="lazy">
+                    <div class="gallery-caption">Hammock</div>
+                </div>
+                <div class="gallery-item" data-category="deck-outdoor">
+                    <img src="assets/images/photos/deck-outdoor/lower-deck-connect-four.jpg" alt="Lower deck with giant Connect Four game" loading="lazy">
+                    <div class="gallery-caption">Giant Connect Four</div>
+                </div>
+
+                <!-- BEDROOMS (9 images) -->
+                <div class="gallery-item" data-category="bedrooms">
+                    <img src="assets/images/photos/bedrooms/suite-one-king-gold-art.jpg" alt="Bedroom suite with king bed and geometric gold mirror art" loading="lazy">
+                    <div class="gallery-caption">Suite One - King Bed</div>
+                </div>
+                <div class="gallery-item" data-category="bedrooms">
+                    <img src="assets/images/photos/bedrooms/suite-one-king-deck-access.jpg" alt="Bedroom suite with king bed, colorful art, and deck access" loading="lazy">
+                    <div class="gallery-caption">Suite One - Deck Access</div>
+                </div>
+                <div class="gallery-item" data-category="bedrooms">
+                    <img src="assets/images/photos/bedrooms/suite-one-ensuite-entry.jpg" alt="Bedroom suite showing ensuite bathroom entrance" loading="lazy">
+                    <div class="gallery-caption">Suite One - Ensuite</div>
+                </div>
+                <div class="gallery-item" data-category="bedrooms">
+                    <img src="assets/images/photos/bedrooms/suite-one-wide-view.jpg" alt="Bedroom suite wide angle with geometric art and deck" loading="lazy">
+                    <div class="gallery-caption">Suite One - Wide View</div>
+                </div>
+                <div class="gallery-item" data-category="bedrooms">
+                    <img src="assets/images/photos/bedrooms/suite-two-king-blue-art.jpg" alt="Bedroom suite with king bed and blue wave artwork" loading="lazy">
+                    <div class="gallery-caption">Suite Two - King Bed</div>
+                </div>
+                <div class="gallery-item" data-category="bedrooms">
+                    <img src="assets/images/photos/bedrooms/suite-two-ensuite-view.jpg" alt="Bedroom suite showing ensuite bathroom" loading="lazy">
+                    <div class="gallery-caption">Suite Two - Ensuite</div>
+                </div>
+                <div class="gallery-item" data-category="bedrooms">
+                    <img src="assets/images/photos/bedrooms/office-standing-desk.jpg" alt="Home office with standing desk, monitor, and mountain view" loading="lazy">
+                    <div class="gallery-caption">Office - Standing Desk</div>
+                </div>
+                <div class="gallery-item" data-category="bedrooms">
+                    <img src="assets/images/photos/bedrooms/office-murphy-bed.jpg" alt="Office with murphy bed featuring plaid bedding" loading="lazy">
+                    <div class="gallery-caption">Office - Murphy Bed</div>
+                </div>
+                <div class="gallery-item" data-category="bedrooms">
+                    <img src="assets/images/photos/bedrooms/office-bedroom-wide.jpg" alt="Office/bedroom combination room" loading="lazy">
+                    <div class="gallery-caption">Office Suite</div>
+                </div>
+
+                <!-- AMENITIES (8 images) -->
+                <div class="gallery-item" data-category="amenities">
+                    <img src="assets/images/photos/amenities/bath-shower-marble-walkin.jpg" alt="Walk-in shower with marble tile, rain head, and bench" loading="lazy">
+                    <div class="gallery-caption">Marble Walk-in Shower</div>
+                </div>
+                <div class="gallery-item" data-category="amenities">
+                    <img src="assets/images/photos/amenities/bath-shower-dual-heads.jpg" alt="Shower detail showing dual heads and dispenser niche" loading="lazy">
+                    <div class="gallery-caption">Dual Shower Heads</div>
+                </div>
+                <div class="gallery-item" data-category="amenities">
+                    <img src="assets/images/photos/amenities/bath-vanity-led-mirror.jpg" alt="Bathroom vanity with LED mirror and granite" loading="lazy">
+                    <div class="gallery-caption">LED Mirror Vanity</div>
+                </div>
+                <div class="gallery-item" data-category="amenities">
+                    <img src="assets/images/photos/amenities/bath-vanity-toilet.jpg" alt="Bathroom vanity and toilet area" loading="lazy">
+                    <div class="gallery-caption">Modern Bathroom</div>
+                </div>
+                <div class="gallery-item" data-category="amenities">
+                    <img src="assets/images/photos/amenities/bath-two-shower-view.jpg" alt="Ensuite bathroom shower with bedroom view" loading="lazy">
+                    <div class="gallery-caption">Ensuite Bathroom</div>
+                </div>
+                <div class="gallery-item" data-category="amenities">
+                    <img src="assets/images/photos/amenities/bath-three-tub-combo.jpg" alt="Third bathroom with tub/shower combo and vanity" loading="lazy">
+                    <div class="gallery-caption">Tub/Shower Combo</div>
+                </div>
+                <div class="gallery-item" data-category="amenities">
+                    <img src="assets/images/photos/amenities/coffee-station-keurig.jpg" alt="Coffee station with Keurig and supplies" loading="lazy">
+                    <div class="gallery-caption">Coffee Station</div>
+                </div>
+                <div class="gallery-item" data-category="amenities">
+                    <img src="assets/images/photos/amenities/laundry-room-lg.jpg" alt="Laundry room with LG washer and dryer" loading="lazy">
+                    <div class="gallery-caption">Laundry Room</div>
+                </div>
+
+                <!-- ENTERTAINMENT (7 images) -->
+                <div class="gallery-item" data-category="entertainment">
+                    <img src="assets/images/photos/entertainment/game-room-pool-table.jpg" alt="Game room with red felt pool table and stylish lighting" loading="lazy">
+                    <div class="gallery-caption">Pool Table</div>
+                </div>
+                <div class="gallery-item" data-category="entertainment">
+                    <img src="assets/images/photos/entertainment/game-room-wide-arcade.jpg" alt="Game room showing pool table, seating, and arcade games" loading="lazy">
+                    <div class="gallery-caption">Game Room Wide</div>
+                </div>
+                <div class="gallery-item" data-category="entertainment">
+                    <img src="assets/images/photos/entertainment/game-room-pool-treadmill.jpg" alt="Game room with pool table, treadmill, and deck access" loading="lazy">
+                    <div class="gallery-caption">Pool & Treadmill</div>
+                </div>
+                <div class="gallery-item" data-category="entertainment">
+                    <img src="assets/images/photos/entertainment/game-room-treadmill-view.jpg" alt="Treadmill with mountain and deck view" loading="lazy">
+                    <div class="gallery-caption">Treadmill View</div>
+                </div>
+                <div class="gallery-item" data-category="entertainment">
+                    <img src="assets/images/photos/entertainment/arcade-pacman-table.jpg" alt="Pac-Man arcade cocktail table with retro stools" loading="lazy">
+                    <div class="gallery-caption">Pac-Man Arcade</div>
+                </div>
+                <div class="gallery-item" data-category="entertainment">
+                    <img src="assets/images/photos/entertainment/home-theater-recliners.jpg" alt="Home theater with red walls and tiered leather recliners" loading="lazy">
+                    <div class="gallery-caption">Home Theater</div>
+                </div>
+                <div class="gallery-item" data-category="entertainment">
+                    <img src="assets/images/photos/entertainment/home-theater-wide.jpg" alt="Home theater showing projector screen and seating" loading="lazy">
+                    <div class="gallery-caption">Theater Wide View</div>
+                </div>
+
+                <!-- EXTERIOR - Aerial Shots (20 images) -->
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/aerial-river-bend-overview.jpg" alt="Stunning aerial showing cabin above river bend" loading="lazy">
+                    <div class="gallery-caption">River Bend Aerial</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/exterior-rear-deck-hero.jpg" alt="Perfect rear view showing full deck, hot tub, and fire pit" loading="lazy">
+                    <div class="gallery-caption">Rear Deck Hero</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/aerial-wide-sunset-mountains.jpg" alt="Wide aerial with dramatic sunset sky over mountains" loading="lazy">
+                    <div class="gallery-caption">Sunset Mountains</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/aerial-wide-mountain-backdrop.jpg" alt="Wide aerial with Blue Ridge Mountains backdrop" loading="lazy">
+                    <div class="gallery-caption">Mountain Backdrop</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/mountain-view-sunset-mist.jpg" alt="Pure mountain vista with sunset colors and mist" loading="lazy">
+                    <div class="gallery-caption">Sunset Mist</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/mountain-panorama-rain-mist.jpg" alt="Panoramic view of North Georgia mountains with rain mist" loading="lazy">
+                    <div class="gallery-caption">Mountain Panorama</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/river-valley-evening-mist.jpg" alt="River winding through valley with evening rain mist" loading="lazy">
+                    <div class="gallery-caption">River Valley Mist</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/aerial-cabin-river-valley.jpg" alt="Aerial showing cabin with river valley below" loading="lazy">
+                    <div class="gallery-caption">Cabin River View</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/exterior-aerial-mountain-backdrop.jpg" alt="Aerial view with Blue Ridge Mountains in background" loading="lazy">
+                    <div class="gallery-caption">Blue Ridge View</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/exterior-rear-twilight-warm.jpg" alt="Rear exterior at twilight showing both levels lit" loading="lazy">
+                    <div class="gallery-caption">Twilight Rear</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/exterior-rear-twilight-full.jpg" alt="Full rear view at twilight with both decks visible" loading="lazy">
+                    <div class="gallery-caption">Full Twilight View</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/deck-aerial-twilight-layout.jpg" alt="Aerial showing full deck layout with fire pit and hot tub" loading="lazy">
+                    <div class="gallery-caption">Deck Layout Aerial</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/deck-corner-sunset-view.jpg" alt="Deck corner at sunset with dining area" loading="lazy">
+                    <div class="gallery-caption">Deck Sunset</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/firepit-evening-sunset-sky.jpg" alt="Fire pit area with Adirondack chairs and sunset sky" loading="lazy">
+                    <div class="gallery-caption">Fire Pit Sunset</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/exterior-aerial-front-evening-mist.jpg" alt="Modern farmhouse cabin front with red door and evening mist" loading="lazy">
+                    <div class="gallery-caption">Front Evening Mist</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/exterior-aerial-side-twilight.jpg" alt="Side view of cabin showing deck and landscaping at twilight" loading="lazy">
+                    <div class="gallery-caption">Side Twilight</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/exterior-aerial-rear-two-levels.jpg" alt="Rear view showing two-level deck with mountain backdrop" loading="lazy">
+                    <div class="gallery-caption">Two-Level Deck</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/exterior-aerial-rear-wide.jpg" alt="Wide aerial view of cabin rear with dual-level decks" loading="lazy">
+                    <div class="gallery-caption">Rear Wide Aerial</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/exterior-aerial-side-firepit.jpg" alt="Side aerial showing fire pit area at twilight" loading="lazy">
+                    <div class="gallery-caption">Fire Pit Aerial</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="assets/images/photos/exterior/exterior-aerial-side-mist.jpg" alt="Side aerial at twilight with misty mountain view" loading="lazy">
+                    <div class="gallery-caption">Misty Side View</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== Video Tours Section ==================== -->
+    <section class="video-tours">
+        <div class="container">
+            <h2>Video Tours</h2>
+            <p class="video-intro">Experience Perch in the Clouds through our video tours</p>
+
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <video controls poster="assets/images/photos/exterior/aerial-river-bend-overview.jpg">
+                            <source src="assets/images/videos/aerial-drone-tour.mov" type="video/quicktime">
+                            <source src="assets/images/videos/aerial-drone-tour.mov" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <h3>Aerial Drone Tour</h3>
+                    <p>Breathtaking aerial views of the property and surrounding mountains</p>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <video controls poster="assets/images/photos/living-kitchen/living-room-wide-evening.jpg">
+                            <source src="assets/images/videos/property-walkthrough.mov" type="video/quicktime">
+                            <source src="assets/images/videos/property-walkthrough.mov" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <h3>Property Walkthrough</h3>
+                    <p>Take a virtual tour through every room of the cabin</p>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <video controls poster="assets/images/photos/exterior/mountain-panorama-rain-mist.jpg">
+                            <source src="assets/images/videos/360-tour.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <h3>360° View Tour</h3>
+                    <p>Immersive 360-degree views of the stunning surroundings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ==================== Highlights Section ==================== -->
     <section class="highlights">
         <div class="container">
@@ -280,7 +641,7 @@
                 <img src="assets/images/logo.png" alt="Om Luxe Properties" class="logo">
                 <span>Om Luxe Properties</span>
             </div>
-            
+
             <div class="footer-links">
                 <!-- Facebook Link -->
                 <div class="footer-social">
@@ -290,12 +651,12 @@
                         </svg>
                     </a>
                 </div>
-                
+
                 <!-- Contact Button -->
                 <button class="btn-contact">Contact Us</button>
             </div>
         </div>
-        
+
         <div class="footer-bottom">
             <p>&copy; 2026 Om Luxe Properties LLC. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
         </div>
@@ -312,11 +673,30 @@
             </button>
             <h2>Contact Us</h2>
             <p style="color: var(--color-text-light); margin-bottom: var(--spacing-md);">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
-            
-            <!-- GHL Form Container -->
+
+            <!-- HubSpot Form Container -->
             <div class="contact-form-container">
-                <p>&lt;!-- GHL FORM EMBED CODE GOES HERE --&gt;</p>
+                <p><!-- HUBSPOT FORM EMBED CODE GOES HERE --></p>
             </div>
+        </div>
+    </div>
+
+    <!-- ==================== Lightbox for Gallery ==================== -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+        <button class="lightbox-nav lightbox-prev" aria-label="Previous image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+        </button>
+        <button class="lightbox-nav lightbox-next" aria-label="Next image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-image">
+            <div class="lightbox-caption"></div>
         </div>
     </div>
 
